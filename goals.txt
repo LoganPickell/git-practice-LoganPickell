@@ -1,0 +1,9 @@
+Short-Term Goals:
+1. Develop a more fluid understanding of Git and GitHub.
+2. Build confidence in using command-line tools.
+3. Pass all classes this semester and graduate successfully.
+
+Long-Term Goals:
+1. Secure employment in the tech industry.
+2. Make meaningful contributions to projects.
+3. Build a comprehensive personal portfolio with advanced projects.
