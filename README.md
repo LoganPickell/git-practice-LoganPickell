@@ -1,3 +1,16 @@
-Logan Pickell
-My favorite programming language is Python
-A fun fact about me is that I enjoy building Magic the Gathering decks with unique commanders.
+# Logan Pickell
+
+---
+
+## Favorite Programming Language 💻🐍
+**Python**  
+
+---
+
+## Fun Fact 🎴✨
+Did you know?  
+I enjoy **building Magic: The Gathering decks** with unique commanders. 
+
+It's a creative challenge that blends strategy and creativity—just like coding!
+
+---
