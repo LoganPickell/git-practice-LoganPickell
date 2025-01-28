@@ -23,5 +23,3 @@ I enjoy building **Magic: The Gathering** decks with unique commanders.
 It’s a creative challenge that combines strategy and imagination—just like coding! 🧠💡
 
 ---
-
-lkiuyghasdrefgyluiasdgbyhjulifjhgbysaedjbghyfdjhbn,aswebn hawsfbhj njhbn afesjhbn
