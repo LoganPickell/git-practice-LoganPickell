@@ -1,9 +1,9 @@
-# Logan Pickell
+# Logan Pickell💻
 
 ---
 
-## Favorite Programming Language 💻🐍
-**Python**  
+## Favorite Programming Language 
+**Python** 🐍 
 
 ---
 
