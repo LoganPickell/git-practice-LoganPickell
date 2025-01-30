@@ -98,9 +98,9 @@ flowchart TD
     style O fill:#c9f7c9,stroke:#66cc66,stroke-width:2px, color:000000
     style P fill:#f7c9c9,stroke:#cc6666,stroke-width:2px, color:000000
     style V fill:#f2f2f2,stroke:#cccccc,stroke-width:2px, color:000000
-    style f1 fill: color:000000
-    style f2 fill: color:000000
-    style k fill: color:000000
+    style F1 fill: color:000000
+    style F2 fill: color:000000
+    style K fill: color:000000
 
     %% Role-Based Styling with classDef
     classDef user fill:#d9f7ff,stroke:#3399ff,stroke-width:2px;
