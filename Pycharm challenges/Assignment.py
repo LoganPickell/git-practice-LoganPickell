@@ -1,7 +1,8 @@
 def print_board(board):
-    for row in board:
+    for i, row in enumerate(board):
         print(" | ".join(row))
-        print("-" * 5)
+        if i < 2:
+            print("-" * 10)
 
 
 def check_winner(board, player):
@@ -17,6 +18,21 @@ def is_full(board):
     return all(cell != " " for row in board for cell in row)
 
 
+def get_valid_move(board, player):
+    while True:
+        try:
+            row, col = map(int, input(f"Player {player}, row col (0-2): ").split())
+            if 0 <= row < 3 and 0 <= col < 3:  # Check if input is within bounds
+                if board[row][col] == " ":
+                    return row, col
+                else:
+                    print("Nope. Spot taken. Try again.")
+            else:
+                print("Out of bounds. Enter numbers between 0 and 2.")
+        except ValueError:
+            print("Invalid input. Please enter two numbers between 0 and 2.")
+
+
 def tic_tac_toe():
     board = [[" " for _ in range(3)] for _ in range(3)]
     players = ["X", "O"]
@@ -24,16 +40,8 @@ def tic_tac_toe():
     print_board(board)
     for t in range(9):
         player = players[t % 2]
-        while 1:
-            try:
-                row, col = map(int, input(f"Player {player}, row col (0-2): ").split())
-                if board[row][col] == " ":
-                    board[row][col] = player
-                    break
-                else:
-                    print("Nope. Again.")
-            except:
-                print("Wrong. 0-2 pls.")
+        row, col = get_valid_move(board,player)
+        board[row][col] = player
         print_board(board)
         if check_winner(board, player):
             print(f"P {player} wins!")
