@@ -108,7 +108,7 @@ def tic_tac_toe():
         board[row][col] = player
         print_board(board)
         if check_winner(board, player):
-            print(f"P {player} wins!")
+            print(f"Player {player} wins!")
             return
         if is_full(board):
             print("Draw!")
